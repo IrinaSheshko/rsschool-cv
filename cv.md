@@ -1,6 +1,6 @@
 # Irina Sheshko
 
-<img src="https://github.com/user-attachments/assets/f9a0cc64-16c5-48c8-9098-045addd8f8a8" alt="Irina Sheshko" width="160">
+<img width="160" height="200" alt="IrinaSheshko" src="https://github.com/user-attachments/assets/c9a21211-4904-4b4f-b318-53f7042c92f7" />
 
 **Junior Front End Developer**    
 
