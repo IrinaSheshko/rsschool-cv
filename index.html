@@ -2,8 +2,124 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irina Sheshko - CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="cv-container">
+   
+        <header class="header">
+            <div class="header-content">
+                <h1>Irina Sheshko</h1>
+                <p class="subtitle">Junior Front End Developer</p>
+              
+                <nav class="nav-menu">
+                    <a href="#experience">Experience</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contacts">Contacts</a>
+                </nav>
+            </div>
+            <img src="foto.jpg" alt="Irina Sheshko" class="avatar">
+        </header>
+
+            <div class="main-grid">
+           
+            <main class="left-column">
+                <section class="section">
+                    <h2>Experience</h2>
+                    <div class="item">
+                        <h3>Junior Frontend Developer</h3>
+                        <span class="company">RS School / 2026 - Present</span>
+                        <p>Developing responsive web applications using HTML5, CSS3, and JavaScript. Collaborating with peers and participating in code reviews.</p>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <h2>Projects</h2>
+                    <div class="item">
+                        <h3><a href="https://irinasheshko.github.io/Portfolio/" target="_blank">Portfolio</a></h3>
+                        <p>A personal portfolio website showcasing all my completed works.</p>
+                        <span class="company">Tech stack: HTML, CSS, JavaScript</span>
+                    </div>
+
+                    <div class="item" style="margin-top: 15px;">
+                        <h3><a href="https://irinasheshko.github.io/Lawyer/" target="_blank">Lawyer Landing Page</a></h3>
+                        <p>A professional landing page for a law firm specializing in family law.</p>
+                        <span class="company">Tech stack: HTML5, CSS3</span>
+                    </div>
+
+                    <div class="item" style="margin-top: 15px;">
+                        <h3><a href="https://irinasheshko.github.io/Restaurany-Calculator/" target="_blank">Restaurant Calculator</a></h3>
+                        <p>An interactive app to fairly split bills and tips among people.</p>
+                        <span class="company">Tech stack: JavaScript (Vanilla), SweetAlert2, HTML5, CSS3</span>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <h2>Education</h2>
+                    <div class="item" style="margin-top: 15px;">
+                        <h3>JavaScript / Front-end Course</h3>
+                        <span class="company">The Rolling Scopes School / 2026</span>
+                    </div>
+                    <div class="item">
+                        <h3>Higher Education — Brest State Technical University (BrSTU)</h3>
+                        <span class="company">Economist / 2005 – 2009</span>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <h2>Code Example</h2>
+                    <pre class="code-box"><code>const multiply = (a, b) => a * b;
+const assert = require("chai").assert;
+    describe("Multiply", () => {
+    it("fixed tests", () => {
+    assert.strictEqual(multiply(1,1), 1);
+    assert.strictEqual(multiply(2,2), 4);
+  });
+});</code></pre>
+                </section>
+            </main>
+
+            <aside class="right-column">
+                <section class="section">
+                    <h2>Contacts</h2>
+                    <ul class="contact-list">
+                        <li>📍 Kraków, Poland</li>
+                        <li>📧 <a href="mailto:irinasheshko1508@gmail.com">irinasheshko1508@gmail.com</a></li>
+                        <li>💬 Discord: IrinaSheshko</li>
+                        <li>💼 <a href="https://linkedin.com/in/irina-sheshko-447b3028a" target="_blank">LinkedIn Profile</a></li>
+                        <li>✈️ <a href="https://t.me/Irina_Sheshko_dev" target="_blank" rel="noreferrer">Telegram</a></li>
+                    </ul>
+                </section>
+
+                <section class="section">
+                    <h2>Skills</h2>
+                    <ul class="skills-list">
+                        <li>💻 HTML5 / CSS3</li>
+                        <li>⚡ JavaScript (Basics), React</li>
+                        <li>🐙 Git / GitHub</li>
+                        <li>🎨 Figma / Responsive Design</li>
+                    </ul>
+                </section>
+
+                <section class="section">
+                    <h2>Languages</h2>
+                    <p><strong>Russian:</strong> Native</p>
+                    <p><strong>Polish:</strong> B1</p>
+                    <p><strong>English:</strong> A2</p>
+                </section>
+            </aside>
+        </div>
+
+       
+        <footer class="footer">
+            <a href="https://github.com/IrinaSheshko" target="_blank">GitHub Profile</a>
+            <span>© 2026</span>
+            <a href="https://rs.school/courses/javascript" target="_blank">
+                <img src="rss-logo.svg" alt="RS School">
+            </a>
+        </footer>
+    </div>
 </body>
 </html>
