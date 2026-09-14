@@ -1,2 +1,2 @@
-https://IrinaSheshko.github.io/rsschool-cv/cv
-https://IrinaSheshko.github.io/rsschool-cv/
+- [CV Web Page](https://IrinaSheshko.github.io/rsschool-cv/)
+- [CV Markdown Version](https://IrinaSheshko.github.io/rsschool-cv/cv)
